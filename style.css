@@ -1,0 +1,72 @@
+.checked{
+    text-decoration: line-through;
+    color: blue;
+}
+
+.close {
+    cursor: pointer;
+    color: red;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://cdn.pixabay.com/photo/2018/07/05/16/59/students-3518726_640.jpg') no-repeat center center fixed;
+    background-size: 100%; 
+    margin: 10;
+    padding: 10px;
+    color: black;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+li {
+    background: rgba(255, 255, 255, 0.9); 
+    margin: 10px 0;
+    padding: 10px;
+    border: 5px solid #ddd;
+    position: relative;
+    transition: background 0.3s ease;
+}
+
+
+.checked {
+    background: #d4edda; 
+    text-decoration: line-through;
+}
+
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #ff0000;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.close:hover {
+    color: #cc0000;
+}
+
+button {
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #218838;
+}
